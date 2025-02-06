@@ -93,4 +93,5 @@ A directory scanner (dir_scanner) actively probes for hidden directories and fil
 4. Configure target `set RHOSTS [IP]`
 
 5. Execute scan `run`
+   ![Dir_Scanner Output](dir_scanner_output.png)
 
