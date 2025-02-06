@@ -97,3 +97,7 @@ A directory scanner (dir_scanner) actively probes for hidden directories and fil
 
 ### Step 4: Clarify Objective
 We want access to the backend of the HTTP server. Here is the visualization of the front-end.
+![Metaploitable HTTP](http_homepage.png)
+![PHP Admin Login](php_admin.png)
+
+
