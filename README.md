@@ -72,7 +72,7 @@ The codeblock that was returned to us provides a lot of information in one singl
 **DAV/2** - WebDAV (Web Distributed Authoring and Versioning) version 2 is enabled, which allows file management over HTTP
   * File manipulation vulnerabilities, directory traversal
     
-**Powered by PHP/5.2.4-2 ubuntu5.10*** - The server is running PHP version 5.2.4-2, specifically the Ubuntu package version 5.10
+**Powered by PHP/5.2.4-2 ubuntu5.10** - The server is running PHP version 5.2.4-2, specifically the Ubuntu package version 5.10
   * Most critical due to age: Remote code execution, SQL injection, File inclusion vulnerabilities, Memory corruption issues
 
 **Out of all these options - the PHP one seems the most attractive. It extremely only (15 years) and has multiple access points. There is also a lot of open source information that we can find online to help us accomplish this.**
@@ -101,7 +101,7 @@ We want access to the backend of the HTTP server. Here is the visualization of t
 ![PHP Admin Login](php_admin.png)
 
 
-### Step 5: Exploit :)
+### Step 5: Exploit ;)
 
 1. The most straighforward way to get more information is to search for an admin login page that may be explosed becuase developers left it open. there are a couple of naming conventions that this could falll under.
   * [IP or WebAddress]/info.php or [IP or WebAddress]/phpinfo.php
