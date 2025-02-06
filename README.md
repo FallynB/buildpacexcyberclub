@@ -75,7 +75,7 @@ The codeblock that was returned to us provides a lot of information in one singl
 **Powered by PHP/5.2.4-2 ubuntu5.10*** - The server is running PHP version 5.2.4-2, specifically the Ubuntu package version 5.10
   * Most critical due to age: Remote code execution, SQL injection, File inclusion vulnerabilities, Memory corruption issues
 
-Out of all these options - the PHP one seems the most attractive. It extremely only (15 years) and has multiple access points. There is also a lot of open source information that we can find online to help us accomplish this. 
+**Out of all these options - the PHP one seems the most attractive. It extremely only (15 years) and has multiple access points. There is also a lot of open source information that we can find online to help us accomplish this.**
 
 
 ### Step 3: Directory Structure Analysis
