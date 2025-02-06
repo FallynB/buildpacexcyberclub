@@ -95,3 +95,5 @@ A directory scanner (dir_scanner) actively probes for hidden directories and fil
 5. Execute scan `run`
    ![Dir_Scanner Output](dir_scanner_output.png)
 
+### Step 4: Clarify Objective
+We want access to the backend of the HTTP server. Here is the visualization of the front-end.
