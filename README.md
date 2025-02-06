@@ -43,17 +43,18 @@ Let's break down this command:
 
 2. Search for HTTP information gathering module
 `search http_version`
+![HTTP Version](http.png)
 
-3. Select the HTTP version scanner
+4. Select the HTTP version scanner
 `use auxiliary/scanner/http/http_version`
 
-4. View available options
+5. View available options
 `show options`
 
-5. Set your target IP
+6. Set your target IP
 `set RHOSTS [TARGET_IP]`
 
-6. Execute the scan
+7. Execute the scan
 `run`
 
 **Note: Run the scan to gather detailed information about what services and applications are running on this port. This reconnaissance step will help identify the specific technologies and versions being used by the target web server. Once we have this information, we can better understand what potential vulnerabilities or misconfigurations might exist and determine our next steps for enumeration.**
