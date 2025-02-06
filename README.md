@@ -38,24 +38,24 @@ Let's break down this command:
    * Operating system details
 
 ### Step 2: Service Enumeration
-Launch Metasploit Framework
+1. Launch Metasploit Framework
 `msfconsole`
 
-Search for HTTP information gathering module
+2. Search for HTTP information gathering module
 `search http_version`
 
-Select the HTTP version scanner
+3. Select the HTTP version scanner
 `use auxiliary/scanner/http/http_version`
 
-View available options
+4. View available options
 `show options`
 
-Set your target IP
+5. Set your target IP
 `set RHOSTS [TARGET_IP]`
 
-Execute the scan
+6. Execute the scan
 `run`
-Run the scan to gather detailed information about what services and applications are running on this port. This reconnaissance step will help identify the specific technologies and versions being used by the target web server. Once we have this information, we can better understand what potential vulnerabilities or misconfigurations might exist and determine our next steps for enumeration.
+** Note: Run the scan to gather detailed information about what services and applications are running on this port. This reconnaissance step will help identify the specific technologies and versions being used by the target web server. Once we have this information, we can better understand what potential vulnerabilities or misconfigurations might exist and determine our next steps for enumeration.**
 
 
 
