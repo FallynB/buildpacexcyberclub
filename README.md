@@ -101,3 +101,29 @@ We want access to the backend of the HTTP server. Here is the visualization of t
 ![PHP Admin Login](php_admin.png)
 
 
+### Step 5: Exploit :)
+
+1. The most straighforward way to get more information is to search for an admin login page that may be explosed becuase developers left it open. there are a couple of naming conventions that this could falll under.
+  * [IP or WebAddress]/info.php or [IP or WebAddress]/phpinfo.php
+
+    These are the results: ![PHP Admin Page](PHPinfo.png)
+
+2. Out of all the sections here, one stands out the most. The configuration file stands out the most because we may be able to gain access through it. After all, that's what it's intended for.
+Let's load up Metasploitable and figure out how to find an exploit now.
+  * Launch Metasploit Framework `msfconsole`
+  * Find a Suitable Exploit `seach php_cgi`
+    Bingo: ![PHP CGI Exploit Located](CGIInjection.png)
+3. Let's load up and exploit.
+  * `use 0`
+  * `show options`
+  * `set RHOSTS [IP]`
+  * `exploit`
+  * The Meterpreter session starting was an extremely good sign. Now we can pop a shell. But first let's verify we are in.
+
+![Session Started with Exploit](Exploit.png)
+
+Here you can see that we are a lower-level privileged user. There are also files available on the backend that we couldn't see at first when we went to the HTTP web page.
+So we can consider this a success.
+
+Next time we will unpack how to escalate our low-level privileges so that we can do more and fully own the system.
+![Success](AccessGranted.png)
