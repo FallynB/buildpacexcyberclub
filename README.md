@@ -1,4 +1,4 @@
-# Understanding HTTP Security: A Practical Guide
+# Exploiting HTTP: A Practical Guide
 
 ## Introduction to Port 80 Vulnerabilities
 
