@@ -65,10 +65,13 @@ The codeblock that was returned to us provides a lot of information in one singl
 
 **Apache/2.28** - This is the Apache web server software, version 2.28
   * Web server vulnerabilities like remote code execution
+    
 **(Ubuntu)** - The server is running on Ubuntu Linux distribution
   * OS-level vulnerabilities (kernel exploits, privilege escalation)
+    
 **DAV/2** - WebDAV (Web Distributed Authoring and Versioning) version 2 is enabled, which allows file management over HTTP
   * File manipulation vulnerabilities, directory traversal
+    
 **Powered by PHP/5.2.4-2 ubuntu5.10*** - The server is running PHP version 5.2.4-2, specifically the Ubuntu package version 5.10
   * Most critical due to age: Remote code execution, SQL injection, File inclusion vulnerabilities, Memory corruption issues
 
