@@ -38,18 +38,26 @@ Let's break down this command:
    * Operating system details
 
 ### Step 2: Service Enumeration
+# Launch Metasploit Framework
+`msfconsole`
 
-Using Metasploit Framework:
+# Search for HTTP information gathering module
+`search http_version`
 
-```bash
-msfconsole
-search http_version
-```
+# Select the HTTP version scanner
+`use auxiliary/scanner/http/http_version`
 
-This helps identify:
-* Web server type (e.g., Apache)
-* PHP version
-* Enabled modules and extensions
+# View available options
+`show options`
+
+# Set your target IP
+`set RHOSTS [TARGET_IP]`
+
+# Execute the scan
+`run`
+* Run the scan to gather detailed information about what services and applications are running on this port. This reconnaissance step will help identify the specific technologies and versions being used by the target web server. Once we have this information, we can better understand what potential vulnerabilities or misconfigurations might exist and determine our next steps for enumeration.
+
+
 
 ### Step 3: Directory Structure Analysis
 
