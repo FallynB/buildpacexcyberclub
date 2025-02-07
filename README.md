@@ -131,3 +131,8 @@ Next time we will unpack how to escalate our low-level privileges so that we can
 ### Step 5a: Exploit w/ Full Access
 vsftpd is the Very Secure FTP Daemon (FTP being the file transfer protocol)
 1. Delete all files in directory: `rm -rf ./*`
+
+### Clarmeont Cybersecurity Club's Next Event - Capture the Flag
+Join us! Scan the QR Code to join our mailing list to stay connected for future events.
+![CTF Flyer](CTF_flyer.pdf)
+![QR Code](QRCode.png)
