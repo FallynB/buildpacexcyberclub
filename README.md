@@ -127,3 +127,7 @@ So we can consider this a success.
 
 Next time we will unpack how to escalate our low-level privileges so that we can do more and fully own the system.
 ![Success](AccessGranted.png)
+
+### Step 5a: Exploit w/ Full Access
+vsftpd is the Very Secure FTP Daemon (FTP being the file transfer protocol)
+1. Delete all files in directory: `rm -rf ./*`
